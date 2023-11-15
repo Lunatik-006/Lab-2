@@ -24,8 +24,8 @@ for node in elements:
     if node.getAttribute('id') == 'bk106':
         print(node.getElementsByTagName('title')[0].firstChild.data)
 
-#for key in books_dict.keys():
-    #print(key, books_dict[key])
+for key in books_dict.keys():
+    print(key, books_dict[key])
 
 print(books_dict)
 
